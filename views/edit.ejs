@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>แก้ไขข้อมูลผู้ใช้</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>แก้ไขข้อมูลผู้ใช้</h1>
+    <form action="/update/<%= userIndex %>" method="POST">
+      <div class="form-group">
+        <label for="firstName">ชื่อจริง:</label>
+        <input type="text" class="form-control" id="firstName" name="firstName" value="<%= user.firstName %>" required>
+      </div>
+      <div class="form-group">
+        <label for="middleName">ชื่อกลาง:</label>
+        <input type="text" class="form-control" id="middleName" name="middleName" value="<%= user.middleName %>">
+      </div>
+      <div class="form-group">
+        <label for="lastName">นามสกุล:</label>
+        <input type="text" class="form-control" id="lastName" name="lastName" value="<%= user.lastName %>" required>
+      </div>
+      <div class="form-group">
+        <label for="nickname">ชื่อเล่น:</label>
+        <input type="text" class="form-control" id="nickname" name="nickname" value="<%= user.nickname %>">
+      </div>
+      <div class="form-group">
+        <label for="age">อายุ:</label>
+        <input type="number" class="form-control" id="age" name="age" value="<%= user.age %>" required>
+      </div>
+      <div class="form-group">
+        <label for="address">ที่อยู่:</label>
+        <input type="text" class="form-control" id="address" name="address" value="<%= user.address %>" required>
+      </div>
+      <div class="form-group">
+        <label for="district">อำเภอ:</label>
+        <input type="text" class="form-control" id="district" name="district" value="<%= user.district %>" required>
+      </div>
+      <div class="form-group">
+        <label for="province">จังหวัด:</label>
+        <input type="text" class="form-control" id="province" name="province" value="<%= user.province %>" required>
+      </div>
+      <div class="form-group">
+        <label for="postcode">รหัสไปรษณีย์:</label>
+        <input type="text" class="form-control" id="postcode" name="postcode" value="<%= user.postcode %>" required>
+      </div>
+      <div class="form-group">
+        <label for="country">ประเทศ:</label>
+        <input type="text" class="form-control" id="country" name="country" value="<%= user.country %>" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">เบอร์โทรศัพท์:</label>
+        <input type="tel" class="form-control" id="phone" name="phone" value="<%= user.phone %>" required>
+      </div>
+      <div class="form-group">
+        <label for="email">อีเมล:</label>
+        <input type="email" class="form-control" id="email" name="email" value="<%= user.email %>" required>
+      </div>
+      <button type="submit" class="btn btn-success">บันทึก</button>
+      <a href="/table" class="btn btn-danger">ยกเลิก</a>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

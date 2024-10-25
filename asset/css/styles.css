@@ -1,0 +1,85 @@
+.jumbotron-custom {
+    background: linear-gradient(90deg, #5D93B1 0%, #CA7AE6 100%);
+    color: #000;
+    /* กำหนดสีของข้อความ */
+    border-radius: 0;
+    /* ตั้งค่าขอบไม่ให้โค้งมน */
+    margin-bottom: 0;
+    /* ลดระยะห่างด้านล่างของ jumbotron */
+}
+
+.carousel {
+    margin-top: 0;
+    /* ลดระยะห่างด้านบนของ carousel */
+}
+
+
+#navbar-brand {
+    padding-left: 20px;
+}
+
+#cont-package {
+    margin-top: 20px;
+    /* เพิ่มระยะห่างด้านบนของ cont-promotion */
+    padding: 20px;
+    /* เพิ่ม padding ให้เนื้อหาใน container นี้ */
+    background-color: #b0c3ff;
+    /* เปลี่ยนสีพื้นหลังเป็นสีเทาอ่อน */
+    border-radius: 20px;
+    /* ตั้งค่าขอบไม่ให้โค้งมน */
+    padding: 20px;
+    /* เพิ่ม padding เพื่อให้เนื้อหาดูโปร่งขึ้น */
+
+}
+
+#cont-package h1 {
+    text-align: center;
+    /* จัดข้อความให้อยู่กึ่งกลางแนวนอน */
+}
+
+#cont-recommend {
+    margin-top: 20px;
+    /* เพิ่มระยะห่างด้านบนของ cont-promotion */
+    padding: 20px;
+    /* เพิ่ม padding ให้เนื้อหาใน container นี้ */
+    background-color: #b0ffb7;
+    /* เปลี่ยนสีพื้นหลังเป็นสีเทาอ่อน */
+    border-radius: 20px;
+    /* ตั้งค่าขอบไม่ให้โค้งมน */
+    padding: 20px;
+    /* เพิ่ม padding เพื่อให้เนื้อหาดูโปร่งขึ้น */
+
+}
+
+#cont-recommend h1 {
+    text-align: center;
+    /* จัดข้อความให้อยู่กึ่งกลางแนวนอน */
+}
+
+#cont-FormTokyo {
+    margin-top: 20px;
+    /* เพิ่มระยะห่างด้านบนของ cont-promotion */
+    padding: 20px;
+    /* เพิ่ม padding ให้เนื้อหาใน container นี้ */
+    background-color: #b0c3ff;
+    /* เปลี่ยนสีพื้นหลังเป็นสีเทาอ่อน */
+    border-radius: 20px;
+    /* ตั้งค่าขอบไม่ให้โค้งมน */
+    padding: 20px;
+    /* เพิ่ม padding เพื่อให้เนื้อหาดูโปร่งขึ้น */
+
+}
+
+#cont-form {
+    margin-top: 20px;
+    /* เพิ่มระยะห่างด้านบนของ cont-promotion */
+    padding: 20px;
+    /* เพิ่ม padding ให้เนื้อหาใน container นี้ */
+    background-color: #b0c3ff;
+    /* เปลี่ยนสีพื้นหลังเป็นสีเทาอ่อน */
+    border-radius: 20px;
+    /* ตั้งค่าขอบไม่ให้โค้งมน */
+    padding: 20px;
+    /* เพิ่ม padding เพื่อให้เนื้อหาดูโปร่งขึ้น */
+
+}
