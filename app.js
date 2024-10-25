@@ -3,7 +3,7 @@ const app = express();
 const debug = require('debug')('app');
 const morgan = require('morgan');
 const path = require('path');
-const routes = require('./routes'); // Import routes from a separate file
+const routes = require('./routes');
 const fs = require('fs');
 
 // Middleware ที่เพิ่มเข้ามาเพื่อให้ Express รับข้อมูลจากฟอร์ม
