@@ -5,6 +5,7 @@ const morgan = require('morgan');
 const path = require('path');
 const routes = require('./routes');
 const fs = require('fs');
+const chalk = require('chalk');
 
 // Middleware ที่เพิ่มเข้ามาเพื่อให้ Express รับข้อมูลจากฟอร์ม
 app.use(express.urlencoded({ extended: true }));
@@ -22,5 +23,5 @@ app.use('/', routes);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-  debug(`Listening on port ${port}`);
+  debug(chalk.green(`Listening on port ${port}`)); // ใช้ chalk เพื่อเพิ่มสีเขียวในข้อความ
 });
